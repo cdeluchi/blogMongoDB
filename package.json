@@ -1,26 +1,27 @@
 {
-  "name": "blogmongodb",
-  "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
-  "dependencies": {
-    "express": "^4.17.1",
-    "lodash": "^4.17.21",
-    "nodemon": "^2.0.15"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cdeluchi/blogMongoDB.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cdeluchi/blogMongoDB/issues"
-  },
-  "homepage": "https://github.com/cdeluchi/blogMongoDB#readme"
+    "name": "blogmongodb",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "dependencies": {
+        "ejs": "^3.1.6",
+        "express": "^4.17.1",
+        "lodash": "^4.17.21",
+        "nodemon": "^2.0.15"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/cdeluchi/blogMongoDB.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/cdeluchi/blogMongoDB/issues"
+    },
+    "homepage": "https://github.com/cdeluchi/blogMongoDB#readme"
 }
