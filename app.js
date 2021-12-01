@@ -2,6 +2,7 @@ const express = require("express");
 const morgan = require("morgan");
 const mongoose = require("mongoose");
 const blogRoutes = require("./routes/blogRoutes");
+// const secrets = require("./secrets.json");
 
 const { result } = require("lodash");
 const { log } = require("console");
@@ -36,7 +37,7 @@ app.get("/about", (req, res) => {
 });
 
 // blog routes
-app.use("/blogs", blogRoutes);
+app.use(blogRoutes);
 
 // 404 page
 app.use((req, res) => {

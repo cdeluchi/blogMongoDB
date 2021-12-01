@@ -2,7 +2,7 @@
     "name": "blogmongodb",
     "version": "1.0.0",
     "description": "",
-    "main": "server.js",
+    "main": "app.js",
     "dependencies": {
         "ejs": "^3.1.6",
         "express": "^4.17.1",
@@ -14,7 +14,7 @@
     "devDependencies": {},
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "node server.js"
+        "start": "nodemon app.js"
     },
     "repository": {
         "type": "git",
